@@ -1,13 +1,40 @@
+/* Color scheme:
+#DDAF94 - dark peach
+#E8CEBF - light peach
+#266150 - forest green
+#4F4846 - dark grey
+#FDF8F5 - white */
+
 body {
   font-family: "Roboto Slab", serif;
 }
 
-.footerCustom {
-  background-color: mediumspringgreen;
-  padding: 20px 0;
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #4f4846;
 }
 
-.footerLink {
-  color: white;
+.mainTextColor {
+  color: #4f4846;
+}
+
+.navbarcustom {
+  background-color: #fdf8f5;
+}
+
+.navbarLogo {
+  max-width: 100;
+}
+
+.faCustom {
+  font-size: 24px;
+  padding: 8px;
+  color: #4f4846;
+}
+
+.footerCustom {
+  color: #4f4846;
 }

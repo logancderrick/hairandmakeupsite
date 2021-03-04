@@ -17,9 +17,6 @@
       href="https://fonts.googleapis.com/css?family=Roboto+Slab"
     />
 
-    <!-- styles.css stylesheet -->
-    <link rel="stylesheet" href="\css\styles.css" />
-
     <!-- font-awesome icons css-->
     <link
       rel="stylesheet"
@@ -32,13 +29,22 @@
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
 
+    <!-- styles.css stylesheet -->
+    <link rel="stylesheet" href="\css\styles.css" />
+
     <title>Hair and Makeup by Kaylee Derrick</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbarCustom">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="/index.html"
+          ><img
+            class="navbarLogo"
+            alt="Logo"
+            src="/images/logos/1png.png"
+            height="100"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -52,50 +58,70 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Services</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a
+              class="nav-link mainTextColor active"
+              aria-current="page"
+              href="/index.html"
+              >Home</a
+            >
+            <a class="nav-link mainTextColor" href="/about.html">About</a>
+            <a class="nav-link mainTextColor" href="/services.html">Services</a>
+            <a class="nav-link mainTextColor" href="/portfolio.html"
+              >Portfolio</a
+            >
+            <a class="nav-link mainTextColor" href="/contact.html">Contact</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a href="http://instagram.com/"
+              ><i class="fa fa-instagram faCustom"></i
+            ></a>
+            <a href="http://facebook.com/"
+              ><i class="fa fa-facebook faCustom"></i
+            ></a>
           </div>
         </div>
       </div>
     </nav>
 
-    <footer class="site-footer footerCustom">
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-4 col-sm-2 offset-1">
             <h5>Links</h5>
             <ul class="list-unstyled">
-              <li><a class="footerLink" href="#">Home</a></li>
-              <li><a class="footerLink" href="#">About</a></li>
-              <li><a class="footerLink" href="#">Services</a></li>
-              <li><a class="footerLink" href="#">Contact</a></li>
+              <li><a class="footerCustom" href="#">Home</a></li>
+              <li><a class="footerCustom" href="/about.html">About</a></li>
+              <li>
+                <a class="footerCustom" href="/services.html">Services</a>
+              </li>
+              <li>
+                <a class="footerCustom" href="/portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="footerCustom" href="/contact.html">Contact</a></li>
             </ul>
           </div>
           <div class="col-6 col-sm-5 text-center">
             <h5>Social</h5>
-            <a
-              class="btn btn-social-icon btn-instagram"
-              href="http://instagram.com/"
-              ><i class="fa fa-instagram"></i
+            <a href="http://instagram.com/"
+              ><i class="fa fa-instagram faCustom"></i
             ></a>
-            <a
-              class="btn btn-social-icon btn-facebook"
-              href="http://facebook.com/"
-              ><i class="fa fa-facebook"></i
+            <a href="http://facebook.com/"
+              ><i class="fa fa-facebook faCustom"></i
             ></a>
           </div>
           <div class="col-sm-4 text-center">
             <h5>Contact</h5>
-            <a role="button" class="btn btn-link" href="tel:+120655551234"
-              ><i class="fa fa-phone fa-lg"></i> 903-274-5133</a
+            <a
+              role="button"
+              class="btn btn-link footerCustom"
+              href="tel:9032745133"
+              ><i class="fa fa-phone fa-lg footerCustom"></i> 903-274-5133</a
             ><br />
             <a
               role="button"
-              class="btn btn-link"
+              class="btn btn-link footerCustom"
               href="mailto:kayleederrickhmua@gmail.com"
-              ><i class="fa fa-envelope-o fa-lg"></i>
+              ><i class="fa fa-envelope-o fa-lg footerCustom"></i>
               kayleederrickhmua@gmail.com</a
             >
           </div>
