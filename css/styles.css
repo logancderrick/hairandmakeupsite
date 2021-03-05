@@ -17,6 +17,10 @@ h5 {
   color: #4f4846;
 }
 
+.defaultBGColor {
+  background-color: rgb(255, 226, 194);
+}
+
 .mainTextColor {
   color: #4f4846;
 }
@@ -27,6 +31,8 @@ h5 {
 
 .navbarcustom {
   background-color: #fdf8f5;
+  color: #fdf8f5;
+  padding: 2;
 }
 
 .navbarLogo {
