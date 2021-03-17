@@ -18,6 +18,10 @@ h5 {
   color: #4f4846;
 }
 
+.navbar {
+  padding: 0;
+}
+
 .mainTextColor {
   color: #4f4846;
 }
@@ -44,6 +48,10 @@ h5 {
 
 .imageMain {
   max-height: 25%;
+}
+
+.imageMedia {
+  max-width: 25%;
 }
 
 .faCustom {

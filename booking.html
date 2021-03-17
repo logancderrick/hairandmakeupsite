@@ -36,7 +36,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-sticky-top bgLight">
+    <nav class="navbar sticky-top navbar-expand-md bgLight">
       <div class="container-md">
         <a class="navbar-brand" href="index.html">
           <h3>Kaylee Derrick Hair<br> and Makeup</h3></a>
@@ -88,7 +88,107 @@
       </div>
     </nav>
 
-    <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Book a Service</h2>
+        </div>
+        <div class="col">
+          <form>
+            <div class="form-group row">
+              <label for="firstName" class="col-md-4 col-form-label"
+                >First Name</label
+              >
+              <div class="col-md-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="First Name"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="lastName" class="col-md-4 col-form-label"
+                >Last Name</label
+              >
+              <div class="col-md-8">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="telephone" class="col-md-4 col-form-label"
+                >Telephone</label
+              >
+              <div class="col-md-8">
+                <input
+                  type="tel"
+                  class="form-control"
+                  name="telNum"
+                  placeholder="Tel. number"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-md-4 col-form-label">Email</label>
+              <div class="col-md-8">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col">
+                <div class="text-center">Service Requested <br/></div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="servicesWedding"
+                    name="servicesRadios"
+                    value="wedding"
+                  />
+                  <label for="servicesWedding" class="form-check-label">Wedding</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="servicesSenior"
+                    name="servicesRadios"
+                    value="seniorPictures"
+                  />
+                  <label for="servicesSenior" class="form-check-label">Senior Pictures</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="servicesFormal"
+                    name="servicesRadios"
+                    value="formalEvent"
+                  />
+                  <label for="servicesFormal" class="form-check-label">Formal Event</label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer bgLight">
       <div class="container">
         <div class="row">
           <div class="col"></div>
