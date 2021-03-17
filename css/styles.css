@@ -20,6 +20,7 @@ h5 {
 
 .navbar {
   padding: 0;
+  border-bottom: 4px solid #4f4846;
 }
 
 .mainTextColor {
@@ -60,6 +61,16 @@ h5 {
   color: #4f4846;
 }
 
+footer {
+  border-top: 4px solid #4f4846;
+}
+
 .footerCustom {
   color: #4f4846;
+}
+
+.btn-primary {
+  background-color: #4f4846;
+  border-color: #266150;
+  margin-bottom: 10px;
 }
