@@ -1,0 +1,76 @@
+/* Color scheme:
+#DDAF94 - dark peach
+#E8CEBF - light peach
+#266150 - forest green
+#4F4846 - dark grey
+#FDF8F5 - white */
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #e8cebf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #4f4846;
+}
+
+.navbar {
+  padding: 0;
+  border-bottom: 4px solid #4f4846;
+}
+
+.mainTextColor {
+  color: #4f4846;
+}
+
+.mainTextBold {
+  font-weight: bold;
+}
+
+.bgDark {
+  background-color: #ddaf94;
+}
+
+.bgLight {
+  background-color: #fdf8f5;
+}
+
+.bgGreen {
+  background-color: #266150;
+}
+
+.bgDarkGrey {
+  background-color: #4f4846;
+}
+
+.imageMain {
+  max-height: 25%;
+}
+
+.imageMedia {
+  max-width: 25%;
+}
+
+.faCustom {
+  font-size: 24px;
+  padding: 8px;
+  color: #4f4846;
+}
+
+footer {
+  border-top: 4px solid #4f4846;
+}
+
+.footerCustom {
+  color: #4f4846;
+}
+
+.btn-primary {
+  background-color: #4f4846;
+  border-color: #266150;
+  margin-bottom: 10px;
+}

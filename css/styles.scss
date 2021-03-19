@@ -1,0 +1,71 @@
+/* Color scheme:
+#DDAF94 - dark peach
+#E8CEBF - light peach
+#266150 - forest green
+#4F4846 - dark grey
+#FDF8F5 - white */
+$color-mainDk: #ddaf94;
+$color-mainLt: #e8cebf;
+$color-secondary: #266150;
+$color-altDk: #4f4846;
+$color-white: #fdf8f5;
+
+$body-font: "Roboto Slab", serif;
+
+body {
+  font-family: $body-font;
+  background-color: #e8cebf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $color-altDk;
+}
+
+.navbar {
+  padding: 0;
+  border-bottom: solid 4px $color-altDk;
+  background-color: $color-white;
+  .faNav {
+    color: $color-altDk;
+    padding: 6px;
+  }
+}
+
+.mainTextColor {
+  color: $color-altDk;
+}
+
+.mainTextBold {
+  font-weight: bold;
+}
+
+.imageMain {
+  max-height: 25%;
+}
+
+.imageMedia {
+  max-width: 25%;
+}
+
+footer {
+  border-top: 4px solid $color-altDk;
+  background-color: $color-white;
+  .faFooter {
+    color: $color-altDk;
+  }
+  ul {
+    a {
+      color: $color-altDk;
+    }
+  }
+}
+
+.btn-primary {
+  background-color: $color-altDk;
+  border-color: $color-secondary;
+  margin-bottom: 10px;
+}
