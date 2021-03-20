@@ -33,6 +33,14 @@ h5 {
     color: $color-altDk;
     padding: 6px;
   }
+  a:hover {
+    font-weight: bold;
+    color: $color-altDk;
+  }
+  h3:hover {
+    font-weight: bold;
+    color: $color-altDk;
+  }
 }
 
 .mainTextColor {
@@ -58,13 +66,25 @@ h5 {
 footer {
   border-top: 4px solid $color-altDk;
   background-color: $color-white;
-  .faFooter {
+  a,
+  i,
+  span {
     color: $color-altDk;
   }
   ul {
     a {
       color: $color-altDk;
     }
+  }
+  a:hover {
+    font-weight: bold;
+    color: $color-altDk;
+    text-decoration: none;
+  }
+  i:hover {
+    font-weight: bold;
+    color: $color-altDk;
+    text-decoration: none;
   }
 }
 
@@ -90,18 +110,6 @@ footer {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
-  img:hover {
-    color: #424242;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-    opacity: 1;
-    transform: scale(1.15);
-    -ms-transform: scale(1.15); /* IE 9 */
-    -webkit-transform: scale(1.15); /* Safari and Chrome */
   }
 }
 

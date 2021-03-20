@@ -22,6 +22,12 @@ h5 {
   .navbar .faNav {
     color: #4f4846;
     padding: 6px; }
+  .navbar a:hover {
+    font-weight: bold;
+    color: #4f4846; }
+  .navbar h3:hover {
+    font-weight: bold;
+    color: #4f4846; }
 
 .mainTextColor {
   color: #4f4846; }
@@ -41,10 +47,20 @@ h5 {
 footer {
   border-top: 4px solid #4f4846;
   background-color: #fdf8f5; }
-  footer .faFooter {
+  footer a,
+  footer i,
+  footer span {
     color: #4f4846; }
   footer ul a {
     color: #4f4846; }
+  footer a:hover {
+    font-weight: bold;
+    color: #4f4846;
+    text-decoration: none; }
+  footer i:hover {
+    font-weight: bold;
+    color: #4f4846;
+    text-decoration: none; }
 
 .btn-primary {
   background-color: #4f4846;
@@ -65,19 +81,6 @@ footer {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%; }
-  #collageCol img:hover {
-    color: #424242;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-    opacity: 1;
-    transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    /* IE 9 */
-    -webkit-transform: scale(1.15);
-    /* Safari and Chrome */ }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
