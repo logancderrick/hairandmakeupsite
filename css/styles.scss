@@ -51,6 +51,10 @@ h5 {
   max-width: 25%;
 }
 
+.img-thumbnail {
+  background-color: $color-altDk;
+}
+
 footer {
   border-top: 4px solid $color-altDk;
   background-color: $color-white;
@@ -69,3 +73,51 @@ footer {
   border-color: $color-secondary;
   margin-bottom: 10px;
 }
+
+// start css for portfolio collage below
+#collageRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+#collageCol {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  img:hover {
+    color: #424242;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    opacity: 1;
+    transform: scale(1.15);
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari and Chrome */
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  #collageCol {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  #collageCol {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+// end css for portfolio collage above
