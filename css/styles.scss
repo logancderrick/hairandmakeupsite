@@ -41,6 +41,12 @@ h5 {
     font-weight: bold;
     color: $color-altDk;
   }
+  .dropdown-menu {
+    background-color: $color-mainDk;
+  }
+  i:hover {
+    font-weight: bold;
+  }
 }
 
 .mainTextColor {
@@ -66,15 +72,11 @@ h5 {
 footer {
   border-top: 4px solid $color-altDk;
   background-color: $color-white;
-  a,
-  i,
-  span {
+  a {
     color: $color-altDk;
   }
-  ul {
-    a {
-      color: $color-altDk;
-    }
+  i {
+    color: $color-altDk;
   }
   a:hover {
     font-weight: bold;
@@ -83,8 +85,6 @@ footer {
   }
   i:hover {
     font-weight: bold;
-    color: $color-altDk;
-    text-decoration: none;
   }
 }
 
@@ -99,6 +99,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  padding-bottom: 8px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -111,6 +112,11 @@ footer {
     vertical-align: middle;
     width: 100%;
   }
+}
+
+.dropdown-item:hover {
+  font-weight: bold;
+  background-color: $color-mainDk;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

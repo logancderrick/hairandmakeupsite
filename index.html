@@ -46,7 +46,7 @@
           data-toggle="collapse"
           data-target="#navbarMain"
         >
-          <i class="fa fa-bars"></i>
+          <i class="fa fa-bars faCustom"></i>
         </button>
       </div>
 
@@ -66,10 +66,15 @@
           <li class="nav-item">
           <a class="nav-link mainTextColor" href="services.html">Services</a>
           </li>
-          <li class="nav-item">
-          <a class="nav-link mainTextColor" href="portfolio.html"
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mainTextColor" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
             >Portfolio</a
           >
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="weddings.html">Weddings</a>
+            <a class="dropdown-item" href="seniors.html">Senior Pictures</a>
+            <a class="dropdown-item" href="formals.html">Formal Events</a>
+          </div>
           </li>
           <li>
           <a class="nav-link mainTextColor" href="booking.html">Booking</a>
@@ -132,46 +137,30 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col"></div>
           <div class="col text-center">
             <h5 class="mainTextBold">Links</h5>
             <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
               <li><a href="about.html">About</a></li>
-              <li>
-                <a href="services.html">Services</a>
-              </li>
-              <li>
-                <a href="portfolio.html">Portfolio</a>
-              </li>
+              <li><a href="services.html">Services</a></li>
               <li><a href="booking.html">Booking</a></li>
             </ul>
           </div>
           <div class="col text-center">
-            <h5 class="mainTextBold">Social</h5>
-            <a href="http://instagram.com/"
-              ><i class="fa fa-instagram fa-lg faFooter"></i
-            ></a>
-            <a href="http://facebook.com/"
-              ><i class="fa fa-facebook fa-lg faFooter"></i
-            ></a>
+            <h5 class="mainTextBold">Social & Contact</h5>
+            <div class="col">
+              <a href="http://instagram.com/"><i class="fa fa-instagram fa-lg"></i></a>
+              <a role="button" class="btn btn-link" href="tel:9032745133"><i class="fa fa-phone fa-lg"></i></a>
+            </div>
+            <div class="col">
+              <a href="http://facebook.com/"><i class="fa fa-facebook fa-lg"></i></a>
+              <a role="button" class="btn btn-link" href="mailto:kayleederrickhmua@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+            </div>
           </div>
-          <div class="col"></div>
-          <div class="col-12 text-center">
-            <h5 class="mainTextBold">Contact</h5>
-            <a
-              role="button"
-              class="btn btn-link faFooter"
-              href="tel:9032745133"
-              ><i class="fa fa-phone fa-lg faFooter"></i>903-274-5133</a
-            ><br />
-            <a
-              role="button"
-              class="btn btn-link faFooter"
-              href="mailto:kayleederrickhmua@gmail.com"
-              ><i class="fa fa-envelope-o fa-lg faFooter"></i>
-              kayleederrickhmua@gmail.com</a
-            >
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>&#169; 2021 by LD Web Design</p>
           </div>
         </div>
       </div>
