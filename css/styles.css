@@ -32,9 +32,8 @@ h5 {
     background-color: #ddaf94; }
   .navbar i:hover {
     font-weight: bold; }
-
-.mainTextColor {
-  color: #4f4846; }
+  .navbar .nav-link {
+    color: #4f4846; }
 
 .mainTextBold {
   font-weight: bold; }

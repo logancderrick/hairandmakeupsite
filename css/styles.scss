@@ -47,10 +47,9 @@ h5 {
   i:hover {
     font-weight: bold;
   }
-}
-
-.mainTextColor {
-  color: $color-altDk;
+  .nav-link {
+    color: $color-altDk;
+  }
 }
 
 .mainTextBold {
