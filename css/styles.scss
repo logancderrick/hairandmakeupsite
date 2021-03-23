@@ -68,6 +68,16 @@ h5 {
   background-color: $color-altDk;
 }
 
+#bookingContainer {
+  margin-top: 10px;
+}
+
+#bookingSubmit:hover {
+  background-color: $color-mainDk;
+  color: $color-altDk;
+  border-color: $color-altDk;
+}
+
 footer {
   border-top: 4px solid $color-altDk;
   background-color: $color-white;

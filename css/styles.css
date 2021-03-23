@@ -47,6 +47,14 @@ h5 {
 .img-thumbnail {
   background-color: #4f4846; }
 
+#bookingContainer {
+  margin-top: 10px; }
+
+#bookingSubmit:hover {
+  background-color: #ddaf94;
+  color: #4f4846;
+  border-color: #4f4846; }
+
 footer {
   border-top: 4px solid #4f4846;
   background-color: #fdf8f5; }
