@@ -97,6 +97,17 @@ footer {
   span {
     margin: 0;
   }
+  .carousel-caption {
+    top: 0;
+    bottom: auto;
+    background-color: rgba(79, 72, 70, 0.4);
+    p {
+      color: $color-white;
+    }
+    h1 {
+      color: $color-white;
+    }
+  }
 }
 
 // start css for portfolio collage below

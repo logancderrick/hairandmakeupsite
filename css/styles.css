@@ -69,6 +69,15 @@ footer {
 #carouselContainer span {
   margin: 0; }
 
+#carouselContainer .carousel-caption {
+  top: 0;
+  bottom: auto;
+  background-color: rgba(79, 72, 70, 0.4); }
+  #carouselContainer .carousel-caption p {
+    color: #fdf8f5; }
+  #carouselContainer .carousel-caption h1 {
+    color: #fdf8f5; }
+
 #collageRow {
   display: flex;
   flex-wrap: wrap;
