@@ -93,6 +93,12 @@ footer {
   margin-bottom: 10px;
 }
 
+#carouselContainer {
+  span {
+    margin: 0;
+  }
+}
+
 // start css for portfolio collage below
 #collageRow {
   display: flex;
