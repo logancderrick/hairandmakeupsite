@@ -4,9 +4,13 @@
 #266150 - forest green
 #4F4846 - dark grey
 #FDF8F5 - white */
+html,
 body {
   font-family: "Roboto Slab", serif;
-  background-color: #e8cebf; }
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
 
 h1,
 h2,
@@ -16,27 +20,30 @@ h5 {
   color: #4f4846; }
 
 .navbar {
-  padding: 0;
-  border-bottom: solid 4px #4f4846;
-  background-color: #fdf8f5; }
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1; }
   .navbar .faNav {
-    color: #4f4846;
+    color: #fdf8f5;
     padding: 6px; }
   .navbar a:hover {
     font-weight: bold;
     color: #4f4846; }
+  .navbar h3 {
+    color: #fdf8f5; }
   .navbar h3:hover {
     font-weight: bold;
     color: #4f4846; }
   .navbar .dropdown-menu {
     background-color: #ddaf94; }
   .navbar i:hover {
-    font-weight: bold; }
-  .navbar .nav-link {
+    font-weight: bold;
     color: #4f4846; }
-
-#aboutCol {
-  height: 75%; }
+  .navbar .nav-link {
+    color: #fdf8f5; }
 
 #aboutHeading {
   text-align: left; }
@@ -66,7 +73,7 @@ h5 {
 
 footer {
   border-top: 4px solid #4f4846;
-  background-color: #fdf8f5; }
+  background-color: #ddaf94; }
   footer a {
     color: #4f4846; }
   footer i {
@@ -83,17 +90,29 @@ footer {
   border-color: #266150;
   margin-bottom: 10px; }
 
-#carouselContainer span {
-  margin: 0; }
+#homeCarousel {
+  width: 100%;
+  margin-bottom: 0; }
+  #homeCarousel .carousel,
+  #homeCarousel .carousel-inner {
+    max-height: 100vh;
+    margin-bottom: 0; }
 
-#carouselContainer .carousel-caption {
-  top: 0;
-  bottom: auto;
-  background-color: rgba(79, 72, 70, 0.4); }
-  #carouselContainer .carousel-caption p {
-    color: #fdf8f5; }
-  #carouselContainer .carousel-caption h1 {
-    color: #fdf8f5; }
+#carouselContainer {
+  max-height: 100vh; }
+  #carouselContainer a {
+    margin-top: 20%;
+    max-height: 20%;
+    margin-left: 5%;
+    margin-right: 5%; }
+  #carouselContainer .carousel-caption {
+    top: 32%;
+    bottom: initial;
+    background-color: rgba(79, 72, 70, 0.4); }
+    #carouselContainer .carousel-caption p {
+      color: #fdf8f5; }
+    #carouselContainer .carousel-caption h3 {
+      color: #fdf8f5; }
 
 #collageRow {
   display: flex;
