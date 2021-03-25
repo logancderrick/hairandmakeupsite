@@ -35,6 +35,15 @@ h5 {
   .navbar .nav-link {
     color: #4f4846; }
 
+#aboutCol {
+  height: 75%; }
+
+#aboutHeading {
+  text-align: left; }
+
+#aboutParagraph {
+  text-align: left; }
+
 .mainTextBold {
   font-weight: bold; }
 
