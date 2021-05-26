@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Specializing in hair and makeup services for weddings, senior pictures and formal events.">
 
     <!-- Bootstrap CSS -->
     <link
@@ -32,11 +33,11 @@
     <!-- styles.css stylesheet -->
     <link rel="stylesheet" href="/css/styles.css" />
 
-    <title>Hair and Makeup by Kaylee Derrick</title>
+    <title>Booking</title>
   </head>
 
   <body>
-    <nav class="navbar sticky-top navbar-expand-md">
+    <nav class="navbar navbar-expand-md" id="navbar-secondary">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <h3>Kaylee Derrick Hair<br> and Makeup</h3></a>
@@ -46,8 +47,7 @@
       <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <!--<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>-->
           <li class="nav-item dropdown"><a class="nav-link dropdown-toggle mainTextColor" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="weddings.html">Weddings</a>
@@ -62,115 +62,118 @@
       </div>
     </nav>
 
-    <div class="container" id="bookingContainer">
-      <div class="row align-items-center">
-        <div class="col-md-6 text-center">
-          <h2>Book a Service</h2>
-        </div>
-        <div class="col">
-          <form id="bookingForm">
-            <div class="form-group-row">
-              <label for="firstName" class="col col-form-label"
-                >First Name</label
-              >
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstName"
-                  name="firstName"
-                  placeholder="First Name"
-                />
-              </div>
-            </div>
-            <div class="form-group-row">
-              <label for="lastName" class="col col-form-label"
-                >Last Name</label
-              >
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lastName"
-                  name="lastName"
-                  placeholder="Last Name"
-                />
-              </div>
-            </div>
-            <div class="form-group-row">
-              <label for="telephone" class="col col-form-label"
-                >Telephone</label
-              >
-              <div class="col">
-                <input
-                  type="tel"
-                  class="form-control"
-                  name="telNum"
-                  placeholder="Tel. number"
-                />
-              </div>
-            </div>
-            <div class="form-group-row">
-              <label for="email" class="col col-form-label">Email</label>
-              <div class="col">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                />
-              </div>
-            </div>
-            <div class="form-group-row">
-              <label for="date" class="col col-form-label">Date</label>
-              <div class="col">
-                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
-              </div>
-            </div>
-            <div class="form-group-row">
-              <div>
-                <label for="servicesRadios" class="col col-form-label text-center">Service Requested</label>
-              </div>
-            </div>
-            <div class="form-group-row">
-              <div class="col text-center">
-                <div class="form-check form-check-inline">
+    <div class="row m-0" id="bookingRow">
+      <div class="container" id="bookingContainer">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <h2>Book a Service</h2>
+            <p>Fill out the form on this page and I will contact you to discuss your request and scheduling.</p>
+          </div>
+          <div class="col">
+            <form id="bookingForm">
+              <div class="form-group-row">
+                <label for="firstName" class="col col-form-label"
+                  >First Name</label
+                >
+                <div class="col">
                   <input
-                    type="radio"
-                    class="form-check-input"
-                    id="servicesWedding"
-                    name="servicesRadios"
-                    value="wedding"
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="First Name"
                   />
-                  <label for="servicesWedding" class="form-check-label">Wedding</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input
-                    type="radio"
-                    class="form-check-input"
-                    id="servicesSenior"
-                    name="servicesRadios"
-                    value="seniorPictures"
-                  />
-                  <label for="servicesSenior" class="form-check-label">Senior Pictures</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input
-                    type="radio"
-                    class="form-check-input"
-                    id="servicesFormal"
-                    name="servicesRadios"
-                    value="formalEvent"
-                  />
-                  <label for="servicesFormal" class="form-check-label">Formal Event</label>
                 </div>
               </div>
-            </div>
-            <div class="form-group-row text-center align-items-center">
-              <div class="col"><button type="submit" class="btn btn-primary" id="bookingSubmit">Submit</button></div>
-            </div>
-          </form>
+              <div class="form-group-row">
+                <label for="lastName" class="col col-form-label"
+                  >Last Name</label
+                >
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+              <div class="form-group-row">
+                <label for="telephone" class="col col-form-label"
+                  >Telephone</label
+                >
+                <div class="col">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    name="telNum"
+                    placeholder="Tel. number"
+                  />
+                </div>
+              </div>
+              <div class="form-group-row">
+                <label for="email" class="col col-form-label">Email</label>
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="form-group-row">
+                <label for="date" class="col col-form-label">Date</label>
+                <div class="col">
+                  <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                </div>
+              </div>
+              <div class="form-group-row">
+                <div>
+                  <label for="servicesRadios" class="col col-form-label text-center">Service Requested</label>
+                </div>
+              </div>
+              <div class="form-group-row">
+                <div class="col text-center">
+                  <div class="form-check form-check-inline">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      id="servicesWedding"
+                      name="servicesRadios"
+                      value="wedding"
+                    />
+                    <label for="servicesWedding" class="form-check-label">Wedding</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      id="servicesSenior"
+                      name="servicesRadios"
+                      value="seniorPictures"
+                    />
+                    <label for="servicesSenior" class="form-check-label">Senior Pictures</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      id="servicesFormal"
+                      name="servicesRadios"
+                      value="formalEvent"
+                    />
+                    <label for="servicesFormal" class="form-check-label">Formal Event</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group-row text-center align-items-center">
+                <div class="col"><button type="submit" class="btn btn-primary" id="bookingSubmit">Submit</button></div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -182,8 +185,7 @@
             <h5 class="mainTextBold">Links</h5>
             <ul class="list-unstyled">
               <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
+              <!--<li><a href="about.html">About</a></li>-->
               <li><a href="#">Booking</a></li>
             </ul>
           </div>

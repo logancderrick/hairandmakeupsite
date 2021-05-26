@@ -1,4 +1,5 @@
 $(function () {
+  // home page carousel interval
   $(".carousel").carousel({ interval: 2000 });
 
   // date picker code

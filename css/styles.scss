@@ -29,7 +29,7 @@ h5 {
   color: $color-altDk;
 }
 
-.navbar {
+#navbar-home {
   position: absolute;
   top: 0px;
   right: 0;
@@ -37,7 +37,7 @@ h5 {
   height: 100px;
   z-index: 1;
   .faNav {
-    color: $color-white;
+    color: $color-mainDk;
     padding: 6px;
   }
   a:hover {
@@ -45,7 +45,7 @@ h5 {
     color: $color-altDk;
   }
   h3 {
-    color: $color-white;
+    color: $color-mainDk;
   }
   h3:hover {
     font-weight: bold;
@@ -53,13 +53,45 @@ h5 {
   }
   .dropdown-menu {
     background-color: $color-mainDk;
+    border: 4px solid $color-altDk;
   }
   i:hover {
     font-weight: bold;
     color: $color-altDk;
   }
   .nav-link {
+    color: $color-mainDk;
+  }
+}
+
+#navbar-secondary {
+  border-bottom: 4px solid $color-altDk;
+  background-color: $color-mainDk;
+  .faNav {
+    color: $color-altDk;
+    padding: 6px;
+  }
+  a:hover {
+    font-weight: bold;
     color: $color-white;
+  }
+  h3 {
+    color: $color-altDk;
+  }
+  h3:hover {
+    font-weight: bold;
+    color: $color-white;
+  }
+  .dropdown-menu {
+    background-color: $color-mainDk;
+    border: 4px solid $color-altDk;
+  }
+  i:hover {
+    font-weight: bold;
+    color: $color-white;
+  }
+  .nav-link {
+    color: $color-altDk;
   }
 }
 
@@ -69,6 +101,16 @@ h5 {
 
 #aboutParagraph {
   text-align: left;
+  display: inline-block;
+}
+
+#aboutContainer {
+  text-align: left;
+  display: inline-block;
+}
+
+#aboutPhoto {
+  max-height: 800px;
 }
 
 .mainTextBold {
@@ -87,6 +129,10 @@ h5 {
   background-color: $color-altDk;
 }
 
+#bookingRow {
+  background-color: $color-mainLt;
+}
+
 #bookingContainer {
   margin-top: 10px;
 }
@@ -100,6 +146,7 @@ h5 {
 footer {
   border-top: 4px solid $color-altDk;
   background-color: $color-mainDk;
+  box-shadow: 0 50vh 0 50vh $color-mainDk;
   a {
     color: $color-altDk;
   }
@@ -141,14 +188,21 @@ footer {
     margin-right: 5%;
   }
   .carousel-caption {
-    top: 32%;
+    top: 65%;
     bottom: initial;
     background-color: rgba(79, 72, 70, 0.4);
     p {
-      color: $color-white;
+      color: $color-mainDk;
     }
     h3 {
-      color: $color-white;
+      color: $color-mainDk;
+    }
+    a {
+      color: $color-mainDk;
+    }
+    a:hover {
+      font-weight: bold;
+      text-decoration: none;
     }
   }
 }
@@ -159,6 +213,7 @@ footer {
   flex-wrap: wrap;
   padding: 0 4px;
   padding-bottom: 8px;
+  background-color: $color-mainLt;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -193,4 +248,4 @@ footer {
     max-width: 100%;
   }
 }
-// end css for portfolio collage above
+// end css for portfolio collage abo
