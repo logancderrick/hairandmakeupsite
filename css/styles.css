@@ -28,60 +28,110 @@ h5 {
   z-index: 1; }
   #navbar-home .faNav {
     color: #ddaf94;
-    padding: 6px; }
+    padding: 10px 10px 10px 10px;
+    text-align: right; }
   #navbar-home a:hover {
     font-weight: bold;
-    color: #4f4846; }
+    color: #ddaf94; }
   #navbar-home h3 {
     color: #ddaf94; }
   #navbar-home h3:hover {
     font-weight: bold;
-    color: #4f4846; }
+    color: #ddaf94; }
   #navbar-home .dropdown-menu {
-    background-color: #ddaf94;
-    border: 4px solid #4f4846; }
+    background-color: #4f484675;
+    border-radius: 4px; }
+  #navbar-home .dropdown-item {
+    color: #ddaf94; }
+  #navbar-home .dropdown-item:hover {
+    font-weight: bold;
+    background-color: #4f484675; }
   #navbar-home i:hover {
     font-weight: bold;
-    color: #4f4846; }
+    color: #ddaf94; }
   #navbar-home .nav-link {
     color: #ddaf94; }
 
 #navbar-secondary {
-  border-bottom: 4px solid #4f4846;
-  background-color: #ddaf94; }
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  height: 100px; }
   #navbar-secondary .faNav {
     color: #4f4846;
-    padding: 6px; }
+    padding: 6px;
+    text-align: right; }
   #navbar-secondary a:hover {
     font-weight: bold;
-    color: #fdf8f5; }
+    color: #4f4846; }
   #navbar-secondary h3 {
     color: #4f4846; }
   #navbar-secondary h3:hover {
     font-weight: bold;
-    color: #fdf8f5; }
+    color: #4f4846; }
   #navbar-secondary .dropdown-menu {
-    background-color: #ddaf94;
-    border: 4px solid #4f4846; }
+    background-color: #4f484675;
+    border-radius: 4px; }
+  #navbar-secondary .dropdown-item {
+    color: #4f4846; }
+  #navbar-secondary .dropdown-item:hover {
+    font-weight: bold; }
   #navbar-secondary i:hover {
     font-weight: bold;
-    color: #fdf8f5; }
+    color: #4f4846; }
   #navbar-secondary .nav-link {
     color: #4f4846; }
 
-#aboutHeading {
-  text-align: left; }
+.navbar-brand {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  z-index: 1; }
 
-#aboutParagraph {
-  text-align: left;
-  display: inline-block; }
+#toggler-home {
+  color: #ddaf94; }
 
-#aboutContainer {
-  text-align: left;
-  display: inline-block; }
+#toggler-secondary {
+  color: #4f4846; }
+  #toggler-secondary :hover {
+    color: #4f4846 !important; }
 
-#aboutPhoto {
-  max-height: 800px; }
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none !important; }
+  .navbar-nav {
+    background-color: #4f484675;
+    max-width: 80px;
+    border-radius: 4px;
+    margin-left: 2px !important; }
+  #navbar-secondary {
+    z-index: 1; }
+    #navbar-secondary .faNav {
+      color: #ddaf94;
+      padding: 10px 10px 10px 10px;
+      text-align: right; }
+    #navbar-secondary a:hover {
+      font-weight: bold;
+      color: #ddaf94; }
+    #navbar-secondary h3 {
+      color: #ddaf94; }
+    #navbar-secondary h3:hover {
+      font-weight: bold;
+      color: #ddaf94; }
+    #navbar-secondary .dropdown-menu {
+      background-color: #4f484675;
+      border-radius: 4px; }
+    #navbar-secondary .dropdown-item {
+      color: #ddaf94; }
+    #navbar-secondary .dropdown-item:hover {
+      font-weight: bold;
+      background-color: #4f484675; }
+    #navbar-secondary i:hover {
+      font-weight: bold;
+      color: #ddaf94; }
+    #navbar-secondary .nav-link {
+      color: #ddaf94; } }
 
 .mainTextBold {
   font-weight: bold; }
@@ -94,37 +144,6 @@ h5 {
 
 .img-thumbnail {
   background-color: #4f4846; }
-
-#bookingRow {
-  background-color: #e8cebf; }
-
-#bookingContainer {
-  margin-top: 10px; }
-
-#bookingSubmit:hover {
-  background-color: #ddaf94;
-  color: #4f4846;
-  border-color: #4f4846; }
-
-footer {
-  border-top: 4px solid #4f4846;
-  background-color: #ddaf94;
-  box-shadow: 0 50vh 0 50vh #ddaf94; }
-  footer a {
-    color: #4f4846; }
-  footer i {
-    color: #4f4846; }
-  footer a:hover {
-    font-weight: bold;
-    color: #4f4846;
-    text-decoration: none; }
-  footer i:hover {
-    font-weight: bold; }
-
-.btn-primary {
-  background-color: #4f4846;
-  border-color: #266150;
-  margin-bottom: 10px; }
 
 #homeCarousel {
   width: 100%;
@@ -141,19 +160,40 @@ footer {
     max-height: 20%;
     margin-left: 5%;
     margin-right: 5%; }
-  #carouselContainer .carousel-caption {
-    top: 65%;
-    bottom: initial;
-    background-color: rgba(79, 72, 70, 0.4); }
-    #carouselContainer .carousel-caption p {
-      color: #ddaf94; }
-    #carouselContainer .carousel-caption h3 {
-      color: #ddaf94; }
-    #carouselContainer .carousel-caption a {
-      color: #ddaf94; }
-    #carouselContainer .carousel-caption a:hover {
-      font-weight: bold;
-      text-decoration: none; }
+
+#homeBlurb {
+  background-color: #ddaf94; }
+
+#aboutHeading {
+  text-align: left; }
+
+#aboutParagraph {
+  text-align: left;
+  display: inline-block; }
+
+#aboutContainer {
+  text-align: left;
+  display: inline-block; }
+
+#aboutPhoto {
+  max-height: 800px; }
+
+#bookingRow {
+  background-color: #e8cebf;
+  padding-top: 70px; }
+
+#bookingContainer {
+  margin-top: 10px; }
+
+#bookingSubmit:hover {
+  background-color: #ddaf94;
+  color: #4f4846;
+  border-color: #4f4846; }
+
+.btn-primary {
+  background-color: #4f4846;
+  border-color: #266150;
+  margin-bottom: 10px; }
 
 #collageRow {
   display: flex;
@@ -162,7 +202,6 @@ footer {
   padding-bottom: 8px;
   background-color: #e8cebf; }
 
-/* Create four equal columns that sits next to each other */
 #collageCol {
   flex: 25%;
   max-width: 25%;
@@ -172,18 +211,27 @@ footer {
     vertical-align: middle;
     width: 100%; }
 
-.dropdown-item:hover {
-  font-weight: bold;
-  background-color: #ddaf94; }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   #collageCol {
     flex: 50%;
     max-width: 50%; } }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   #collageCol {
     flex: 100%;
     max-width: 100%; } }
+
+footer {
+  border-top: 4px solid #4f4846;
+  background-color: #ddaf94;
+  box-shadow: 0 50vh 0 50vh #ddaf94; }
+  footer a {
+    color: #4f4846; }
+  footer i {
+    color: #4f4846; }
+  footer a:hover {
+    font-weight: bold;
+    color: #4f4846;
+    text-decoration: none; }
+  footer i:hover {
+    font-weight: bold; }
