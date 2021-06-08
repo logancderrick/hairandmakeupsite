@@ -102,7 +102,7 @@ h5 {
     display: none !important; }
   .navbar-nav {
     background-color: #4f484675;
-    max-width: 80px;
+    max-width: 100px;
     border-radius: 4px;
     margin-left: 2px !important; }
   #navbar-secondary {
@@ -162,7 +162,7 @@ h5 {
     margin-right: 5%; }
 
 #homeBlurb {
-  background-color: #ddaf94; }
+  background-color: #e8cebf; }
 
 #aboutHeading {
   text-align: left; }
